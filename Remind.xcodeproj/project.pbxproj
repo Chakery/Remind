@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12FE2118DF35C817B72A2E97 /* Pods_Remind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A717846BD32EE0A871A5659 /* Pods_Remind.framework */; };
 		836BE4C81F16383B00F0687D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4C71F16383B00F0687D /* AppDelegate.swift */; };
-		836BE4CA1F16383B00F0687D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4C91F16383B00F0687D /* ViewController.swift */; };
-		836BE4CD1F16383B00F0687D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836BE4CB1F16383B00F0687D /* Main.storyboard */; };
 		836BE4CF1F16383B00F0687D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836BE4CE1F16383B00F0687D /* Assets.xcassets */; };
 		836BE4D21F16383B00F0687D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836BE4D01F16383B00F0687D /* LaunchScreen.storyboard */; };
+		836BE4DC1F163FD700F0687D /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4DB1F163FD700F0687D /* BaseTabBarController.swift */; };
+		836BE4DE1F163FE700F0687D /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4DD1F163FE700F0687D /* NoteListViewController.swift */; };
+		836BE4E01F16416000F0687D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4DF1F16416000F0687D /* BaseViewController.swift */; };
+		836BE4E21F16417600F0687D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4E11F16417600F0687D /* BaseView.swift */; };
+		836BE4E41F1641D700F0687D /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4E31F1641D700F0687D /* BaseNavigationController.swift */; };
+		836BE4E61F165C3700F0687D /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4E51F165C3700F0687D /* NoteTableViewCell.swift */; };
+		836BE4E91F165CB800F0687D /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4E81F165CB800F0687D /* UIFont+Extension.swift */; };
+		836BE4EB1F165D6A00F0687D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4EA1F165D6A00F0687D /* UIColor+Extension.swift */; };
+		836BE4ED1F1706B000F0687D /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4EC1F1706B000F0687D /* NoteModel.swift */; };
+		836BE4EF1F170BD600F0687D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4EE1F170BD600F0687D /* MainViewController.swift */; };
+		836BE4F11F170DEB00F0687D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4F01F170DEB00F0687D /* BaseViewModel.swift */; };
+		836BE4F31F170E0800F0687D /* NoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4F21F170E0800F0687D /* NoteListViewModel.swift */; };
+		836BE4F81F174FBF00F0687D /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4F71F174FBF00F0687D /* CalendarViewController.swift */; };
+		836BE4FA1F17686D00F0687D /* CalendarNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4F91F17686D00F0687D /* CalendarNavigationBar.swift */; };
+		836BE4FC1F176E0200F0687D /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836BE4FB1F176E0200F0687D /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001F6ED3F3A04798DEC85E24 /* Pods-Remind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remind.release.xcconfig"; path = "Pods/Target Support Files/Pods-Remind/Pods-Remind.release.xcconfig"; sourceTree = "<group>"; };
+		06F445E1663E75512951076F /* Pods-Remind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Remind/Pods-Remind.debug.xcconfig"; sourceTree = "<group>"; };
+		1A717846BD32EE0A871A5659 /* Pods_Remind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Remind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		836BE4C41F16383B00F0687D /* Remind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836BE4C71F16383B00F0687D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		836BE4C91F16383B00F0687D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		836BE4CC1F16383B00F0687D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		836BE4CE1F16383B00F0687D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836BE4D11F16383B00F0687D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		836BE4D31F16383B00F0687D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836BE4DB1F163FD700F0687D /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		836BE4DD1F163FE700F0687D /* NoteListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListViewController.swift; sourceTree = "<group>"; };
+		836BE4DF1F16416000F0687D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		836BE4E11F16417600F0687D /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		836BE4E31F1641D700F0687D /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		836BE4E51F165C3700F0687D /* NoteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		836BE4E81F165CB800F0687D /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		836BE4EA1F165D6A00F0687D /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		836BE4EC1F1706B000F0687D /* NoteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		836BE4EE1F170BD600F0687D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		836BE4F01F170DEB00F0687D /* BaseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		836BE4F21F170E0800F0687D /* NoteListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteListViewModel.swift; sourceTree = "<group>"; };
+		836BE4F71F174FBF00F0687D /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		836BE4F91F17686D00F0687D /* CalendarNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarNavigationBar.swift; sourceTree = "<group>"; };
+		836BE4FB1F176E0200F0687D /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FE2118DF35C817B72A2E97 /* Pods_Remind.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				836BE4C61F16383B00F0687D /* Remind */,
 				836BE4C51F16383B00F0687D /* Products */,
+				F020389B43A940D4323DC0FA /* Pods */,
+				C4D9ACDA78730849254AB509 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +88,91 @@
 			isa = PBXGroup;
 			children = (
 				836BE4C71F16383B00F0687D /* AppDelegate.swift */,
-				836BE4C91F16383B00F0687D /* ViewController.swift */,
-				836BE4CB1F16383B00F0687D /* Main.storyboard */,
+				836BE4DA1F163F2D00F0687D /* App */,
+				836BE4D91F163F0A00F0687D /* Resources */,
+			);
+			path = Remind;
+			sourceTree = "<group>";
+		};
+		836BE4D91F163F0A00F0687D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				836BE4CE1F16383B00F0687D /* Assets.xcassets */,
 				836BE4D01F16383B00F0687D /* LaunchScreen.storyboard */,
 				836BE4D31F16383B00F0687D /* Info.plist */,
 			);
-			path = Remind;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		836BE4DA1F163F2D00F0687D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				836BE4E71F165CA800F0687D /* Extension */,
+				836BE4EE1F170BD600F0687D /* MainViewController.swift */,
+				836BE4F51F174F7F00F0687D /* Base */,
+				836BE4F41F174F7700F0687D /* Note */,
+				836BE4F61F174F8F00F0687D /* calendar */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		836BE4E71F165CA800F0687D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				836BE4E81F165CB800F0687D /* UIFont+Extension.swift */,
+				836BE4EA1F165D6A00F0687D /* UIColor+Extension.swift */,
+				836BE4FB1F176E0200F0687D /* Date+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		836BE4F41F174F7700F0687D /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				836BE4DD1F163FE700F0687D /* NoteListViewController.swift */,
+				836BE4E51F165C3700F0687D /* NoteTableViewCell.swift */,
+				836BE4EC1F1706B000F0687D /* NoteModel.swift */,
+				836BE4F21F170E0800F0687D /* NoteListViewModel.swift */,
+			);
+			name = Note;
+			sourceTree = "<group>";
+		};
+		836BE4F51F174F7F00F0687D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				836BE4DF1F16416000F0687D /* BaseViewController.swift */,
+				836BE4DB1F163FD700F0687D /* BaseTabBarController.swift */,
+				836BE4E31F1641D700F0687D /* BaseNavigationController.swift */,
+				836BE4E11F16417600F0687D /* BaseView.swift */,
+				836BE4F01F170DEB00F0687D /* BaseViewModel.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		836BE4F61F174F8F00F0687D /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				836BE4F71F174FBF00F0687D /* CalendarViewController.swift */,
+				836BE4F91F17686D00F0687D /* CalendarNavigationBar.swift */,
+			);
+			name = calendar;
+			sourceTree = "<group>";
+		};
+		C4D9ACDA78730849254AB509 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A717846BD32EE0A871A5659 /* Pods_Remind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F020389B43A940D4323DC0FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06F445E1663E75512951076F /* Pods-Remind.debug.xcconfig */,
+				001F6ED3F3A04798DEC85E24 /* Pods-Remind.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836BE4D61F16383B00F0687D /* Build configuration list for PBXNativeTarget "Remind" */;
 			buildPhases = (
+				1BF7CA2B85BE17E0356D2F9D /* [CP] Check Pods Manifest.lock */,
 				836BE4C01F16383B00F0687D /* Sources */,
 				836BE4C11F16383B00F0687D /* Frameworks */,
 				836BE4C21F16383B00F0687D /* Resources */,
+				C42627472776BBE934292A21 /* [CP] Embed Pods Frameworks */,
+				713A378A751B1150D28A092F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +210,7 @@
 				TargetAttributes = {
 					836BE4C31F16383B00F0687D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 476N92MP39;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,18 +240,79 @@
 			files = (
 				836BE4D21F16383B00F0687D /* LaunchScreen.storyboard in Resources */,
 				836BE4CF1F16383B00F0687D /* Assets.xcassets in Resources */,
-				836BE4CD1F16383B00F0687D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BF7CA2B85BE17E0356D2F9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		713A378A751B1150D28A092F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Remind/Pods-Remind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C42627472776BBE934292A21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Remind/Pods-Remind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		836BE4C01F16383B00F0687D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				836BE4CA1F16383B00F0687D /* ViewController.swift in Sources */,
+				836BE4FA1F17686D00F0687D /* CalendarNavigationBar.swift in Sources */,
+				836BE4ED1F1706B000F0687D /* NoteModel.swift in Sources */,
+				836BE4EF1F170BD600F0687D /* MainViewController.swift in Sources */,
+				836BE4DE1F163FE700F0687D /* NoteListViewController.swift in Sources */,
+				836BE4E01F16416000F0687D /* BaseViewController.swift in Sources */,
+				836BE4FC1F176E0200F0687D /* Date+Extension.swift in Sources */,
+				836BE4E41F1641D700F0687D /* BaseNavigationController.swift in Sources */,
+				836BE4F11F170DEB00F0687D /* BaseViewModel.swift in Sources */,
+				836BE4F31F170E0800F0687D /* NoteListViewModel.swift in Sources */,
+				836BE4EB1F165D6A00F0687D /* UIColor+Extension.swift in Sources */,
+				836BE4E61F165C3700F0687D /* NoteTableViewCell.swift in Sources */,
+				836BE4E21F16417600F0687D /* BaseView.swift in Sources */,
+				836BE4DC1F163FD700F0687D /* BaseTabBarController.swift in Sources */,
+				836BE4E91F165CB800F0687D /* UIFont+Extension.swift in Sources */,
+				836BE4F81F174FBF00F0687D /* CalendarViewController.swift in Sources */,
 				836BE4C81F16383B00F0687D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +320,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		836BE4CB1F16383B00F0687D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				836BE4CC1F16383B00F0687D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		836BE4D01F16383B00F0687D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,9 +428,12 @@
 		};
 		836BE4D71F16383B00F0687D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F445E1663E75512951076F /* Pods-Remind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 476N92MP39;
 				INFOPLIST_FILE = Remind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccggyy.Remind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,9 +443,12 @@
 		};
 		836BE4D81F16383B00F0687D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001F6ED3F3A04798DEC85E24 /* Pods-Remind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 476N92MP39;
 				INFOPLIST_FILE = Remind/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccggyy.Remind;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +475,7 @@
 				836BE4D81F16383B00F0687D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

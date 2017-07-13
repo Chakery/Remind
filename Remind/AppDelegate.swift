@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setupWindow()
+        setupAppearance()
+        setupMainViewController()
         return true
     }
 
@@ -41,6 +44,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+}
 
+extension AppDelegate {
+    
+    fileprivate func setupWindow() {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window!.backgroundColor = .white
+        window!.makeKeyAndVisible()
+    }
+    
+    fileprivate func setupMainViewController() {
+        let mainVC = MainViewController()
+        let animation: ()->Void = { [weak self] in
+            self?.window?.rootViewController = mainVC
+        }
+        UIView.transition(with: window!,
+                          duration: 0.3,
+                          options: [.transitionCrossDissolve],
+                          animations: animation,
+                          completion: nil)
+    }
+    
+    fileprivate func setupAppearance() {
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().barTintColor = UIColor.white
+        UINavigationBar.appearance().tintColor = UIColor.blue
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.black]
+    }
 }
 
